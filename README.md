@@ -1,1 +1,1 @@
-Budget app
+Budget app based on react
