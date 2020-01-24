@@ -1,0 +1,20 @@
+.budget-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.85); 
+  padding: 2px 16px;
+}
+
+.budget-header .logo {
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+.budget-header .categories-info {
+  align-self: center;
+  font-size: 1.1rem;
+}
+
+

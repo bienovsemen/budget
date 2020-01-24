@@ -1,0 +1,36 @@
+.categories-list {
+  padding: 0;
+  list-style: none;
+  margin-top: 24px;
+}
+.categories-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  max-width: 360px;
+  border-bottom: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+.categories-list-item.is-active {
+  background-color: rgba(184, 181, 232, .2);
+}
+.categories-list-item  .category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.category-total {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.category-actions {
+  margin-left: 16px;
+}
+.category-actions button {
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+}

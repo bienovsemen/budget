@@ -1,0 +1,60 @@
+body * {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgba(0, 0, 0, 0.85); 
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.ant-layout {
+  background-color: transparent!important;
+}
+.ant-layout-header {
+  background-color: rgba(184, 181, 232, .8)!important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
+}
+.ant-layout-content {
+  padding: 24px 16px;
+}
+.ant-layout-sider {
+  padding: 24px 0;
+}
+.ant-layout-content, .ant-layout-sider {
+ box-shadow: 0 4px 6px 0 rgba(28, 42, 69, 0.3);
+  background-color: #fff!important;
+  margin: 24px 0 96px;
+  border: 1px solid rgba(28, 42, 69, 0.03)
+
+}
+.create-item .ant-form-item-label {
+  display: block !important;
+  text-align: left !important;
+  font-size: 12px !important;
+  line-height: normal;
+}
+.create-item .ant-form-item-label label {
+  font-size: 12px !important;
+  line-height: normal;
+}
+.btn-transparent {
+  background-color: transparent !important;
+  border: none !important;
+}
+.create-category {
+  padding: 0 16px !important;
+}
+.create-category.ant-form-inline {
+  display: flex;
+}
+.create-category.ant-form-inline > .ant-form-item:first-child {
+  flex-grow: 1;
+}
+.create-category.ant-form-inline > .ant-form-item:first-child .ant-form-item-control-wrapper {
+  width: 100%;
+}
+.create-category.ant-form-inline > .ant-form-item:last-child {
+  margin-right: 0;
+}

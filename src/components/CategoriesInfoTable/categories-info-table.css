@@ -1,0 +1,28 @@
+.categories-info-table {
+  width: 100%;
+  margin-top: 32px;
+}
+.categories-info-table table {
+  width: 100%;
+}
+.categories-info-table td, .categories-info-table th {
+  padding: 10px;
+}
+.categories-info-table td:last-child, .categories-info-table th:last-child {
+  text-align: right;
+}
+.categories-info-table table tbody tr:nth-child(odd){
+  background-color: rgba(184, 181, 232, .2);
+}
+
+.categories-info-table .total {
+  text-align: right;
+  font-size: 1rem;
+  margin-top: 16px;
+
+}
+
+.categories-info-table button {
+  margin-left: 5px;
+  margin-top: 5px;
+}
